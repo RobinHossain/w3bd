@@ -1,5 +1,6 @@
 {
-    "name": "laravel-lite",
+    "name": "laravel_lite",
+    "vendor": "laravel_lite",
     "description": "The Laravel Framework with Login, Register and Production ready(minified and compressed code).",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
