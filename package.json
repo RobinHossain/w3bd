@@ -1,5 +1,6 @@
 {
   "name": "laravel-lite",
+  "vendor": "laravel-lite",
   "version": "1.0.0",
   "license": "see LICENSE file",
   "description": "5.2.* version of laravel with login, register, & compress and minify html, css, javascript",
