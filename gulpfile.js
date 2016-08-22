@@ -1,6 +1,7 @@
 var elixir = require('laravel-elixir'),
     gulp    = require('gulp'),
     htmlmin = require('gulp-htmlmin');
+    require('laravel-elixir-uncss');
 
 
 
@@ -39,14 +40,20 @@ elixir.config.sourcemaps = false;
 // For Plain Css File
 
 elixir(function(mix) {
- mix.styles(['bootstrap.css', 'main.css'], 'public/assets/css/app.css');
+ mix.styles(['bootstrap.css', 'main.css'], 'public/css/app.css');
 });
 
 
 elixir(function(mix) {
- mix.scripts(['jquery.js', 'bootstrap.js'], 'public/assets/js/app.js')
+ mix.scripts(['jquery.js', 'bootstrap.js'], 'public/js/app.js')
 });
 
 elixir(function(mix) {
     mix.compress();
+});
+
+elixir(function(mix) {
+    mix.uncss('./public/css/app.css', {
+        html: ['http://localhost:8000/','http://localhost:8000/login']
+    });
 });

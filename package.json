@@ -11,6 +11,7 @@
     "bootstrap-sass": "^3.3.0",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^2.0.0",
-    "laravel-elixir": "^5.0.0"
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-uncss": "^2.2.0"
   }
 }

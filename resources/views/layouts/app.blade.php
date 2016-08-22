@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
 
     <!-- Styles -->
-    <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
 </head>
@@ -66,6 +66,6 @@
     @yield('content')
 
     <!-- JavaScripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
