@@ -20,6 +20,11 @@ elixir.extend('compress', function() {
 });
 
 elixir.config.sourcemaps = false;
+elixir.config.css.cssnano.pluginOptions = {
+    discardComments: {
+        removeAll: true
+    }
+};
 
 /*
  |--------------------------------------------------------------------------
